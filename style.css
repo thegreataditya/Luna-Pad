@@ -1,0 +1,29 @@
+body {
+    background-image: url('/Background.jpg');
+    color: black;
+}
+#Lunarlogo{
+  display: inline;
+}
+#name{
+  display: inline;
+  vertical-align: central;
+}
+#logoholder{
+  align-self: flex-start;
+  position: relative;
+  
+}
+ul{
+  list-style-type: none;
+}
+.customer {
+  
+  padding: 10%;
+  display: inline;
+}
+
+a{
+  text-decoration: none;
+  color: red;
+}
