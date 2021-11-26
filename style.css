@@ -1,6 +1,6 @@
 body {
-    background-image: url('/Background.jpg');
-    color: black;
+    background-image: url('/Background.png');
+    color: #ffffff;
 }
 #Lunarlogo{
   display: inline;
@@ -25,5 +25,105 @@ ul{
 
 a{
   text-decoration: none;
-  color: red;
+  color: #64b5f6;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  background-image: url("Black_back.png");
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  }
+.sidenav a img{
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: block;
+   padding: 20px;
+ } 
+.sidenav a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 5vw;
+  color: #ffffff;
+  display: block;
+  transition: 0.1s;
+  }
+  
+  .sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#dev, #nijuhachi{
+  padding: 2px;
+  float: right;
+  margin: 2px 0 5px 2px;
+  position: relative;
+}
+
+
+
+.team_a, .team_n{
+  padding: 3px;
+  display: inline;
+}
+
+.about_adi, .about_n{
+  margin: 3px;
+}
+
+.at_con, .n_con{
+  display: block
+}
+
+.team_l{
+  padding: 3px;
+}
+
+.about_l{
+  margin: 5px 5px 5px 0;
+}
+
+#l_img{
+  margin: 0;
+  position: relative;
+}
+
+#logoholder{
+  position: relative;
+  top: 0;
+}
+
+h2{
+  display: inline;
+  top: 0;
+  position: relative;
+}
+
+.team_r{
+  margin: 2px;
+}
+team_raza{
+  padding: 3px;
+}
+
+#dev, #nijuhachi, #l_img, #raza{
+  border: black 1px bold;
+  border-radius: 10px;
 }
