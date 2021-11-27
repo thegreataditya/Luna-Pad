@@ -77,8 +77,6 @@ a{
   position: relative;
 }
 
-
-
 .team_a, .team_n{
   padding: 3px;
   display: inline;
@@ -92,17 +90,17 @@ a{
   display: block
 }
 
-.team_l{
+.team_l, .team_raza{
   padding: 3px;
 }
 
-.about_l{
+.about_l, .team_r{
   margin: 5px 5px 5px 0;
 }
 
-#l_img{
-  margin: 0;
-  position: relative;
+#l_img, #raza{
+  margin: 10px;
+  float: left;
 }
 
 #logoholder{
@@ -110,17 +108,12 @@ a{
   top: 0;
 }
 
-h2{
+.h2{
   display: inline;
-  top: 0;
   position: relative;
-}
-
-.team_r{
-  margin: 2px;
-}
-team_raza{
-  padding: 3px;
+  top: 0;
+  font-size: 20px;
+  padding: 0 0 0 20px;
 }
 
 #dev, #nijuhachi, #l_img, #raza{
