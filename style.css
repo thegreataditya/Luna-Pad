@@ -70,23 +70,23 @@ a{
   .sidenav a {font-size: 18px;}
 }
 
-#dev, #nijuhachi{
+#raza{
   padding: 2px;
   float: right;
   margin: 2px 0 5px 2px;
   position: relative;
 }
 
-.team_a, .team_n{
+.team_raza, .team_n{
   padding: 3px;
   display: inline;
 }
 
-.about_adi, .about_n{
+.team_r, .about_n{
   margin: 3px;
 }
 
-.at_con, .n_con{
+.n_con{
   display: block
 }
 
@@ -94,11 +94,11 @@ a{
   padding: 3px;
 }
 
-.about_l, .team_r{
+.about_l, .about_n{
   margin: 5px 5px 5px 0;
 }
 
-#l_img, #raza{
+#l_img, #nijuhachi{
   margin: 10px;
   float: left;
 }
@@ -116,7 +116,7 @@ a{
   padding: 0 0 0 20px;
 }
 
-#dev, #nijuhachi, #l_img, #raza{
+#nijuhachi, #l_img, #raza{
   border: black 1px bold;
   border-radius: 10px;
 }
