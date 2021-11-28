@@ -36,7 +36,6 @@ a{
   top: 0;
   left: 0;
   background-color: black;
-  background-image: url("Black_back.png");
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
