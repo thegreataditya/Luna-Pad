@@ -1,6 +1,7 @@
 body {
-    background: black;
-    color: #ffffff;
+    color: black;
+    background-color: #fff0f0;
+    font-family: Open-Sans;
 }
 #Lunarlogo{
   display: inline;
