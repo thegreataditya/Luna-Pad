@@ -1,7 +1,7 @@
 body {
     color: black;
     background-color: #fff0f0;
-    font-family: Open-Sans;
+    font-family: Helvetica, sans-serif;
 }
 #Lunarlogo{
   display: inline;
@@ -114,7 +114,7 @@ a{
   position: relative;
   top: 0;
   font-size: 20px;
-  padding: minmax(10px, 30%);
+  padding: auto;
 }
 
 #nijuhachi, #l_img, #raza{
