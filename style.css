@@ -110,10 +110,9 @@ a{
 
 .h2{
   display: inline-block;
-  margin: auto;
+  margin: 0 auto;
   position: relative;
   top: 0;
-  font-size: 20px;
   padding: auto;
 }
 
